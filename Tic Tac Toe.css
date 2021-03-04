@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background_1048-11333.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1{
+    text-align: center;
+    color: crimson;
+}
+#container{
+    background-color: cornsilk;
+    background-image: linear-gradient(50deg, grey 0%, beige 50%, grey 100%);
+    /* animation: bgColor 10s ease infinite; */
+    /* animation: bgcolor 10s ease infinite; */
+    height: 30rem;
+    width: 30rem;
+    margin: auto;
+    padding: 2rem;;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    background-color: crimson;
+    border: black solid 1px;
+    height: 10rem;
+    width: 10rem;
+    cursor: pointer;
+    animation: bRadius 6s ease;
+}
+@keyframes bRadius{
+    0%{
+        border-radius: 50%;
+    }
+    100%{
+        border-radius: 0%;
+    }
+}
